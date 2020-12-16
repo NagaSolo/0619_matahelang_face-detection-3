@@ -1,1 +1,5 @@
 env
+results
+test_imgs
+models
+__pycache__

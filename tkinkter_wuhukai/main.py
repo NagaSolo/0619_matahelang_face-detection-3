@@ -11,7 +11,7 @@ def browse_file():
         )) 
        
     # Change label contents 
-    label_file_explorer.configure(text="Imej untuk sumber dipilih: "+filename) 
+    label_sumber_explorer.configure(text="Imej untuk sumber dipilih: "+filename) 
 
 window = tkinter.Tk()
 window.title('Tukar Muka')
@@ -20,7 +20,7 @@ window.geometry('600x400')
 label = tkinter.Label(text='Aplikasi menukar rupa paras')
 label.grid(column=0, row=0)
 
-label_file_explorer = tkinter.Label(text='Sumber imej')
+label_sumber_explorer = tkinter.Label(text='Sumber imej')
 label.grid(column=0, row=0)
 
 button_explore = tkinter.Button(window, text = "Browse Files", command=browse_file)

@@ -34,13 +34,13 @@ label = tkinter.Label(text='Aplikasi menukar rupa paras')
 label.grid(column=1, row=0)
 
 label_sumber_explorer = tkinter.Label(text='Sumber imej')
-label_sumber_explorer.grid(column=1, row=0)
+label_sumber_explorer.grid(column=1, row=2)
 
 button_sumber_explore = tkinter.Button(window, text = "Browse imej sebagai sumber", command=browse_sumber_image)
-button_sumber_explore.grid(column = 1, row = 2)
+button_sumber_explore.grid(column = 1, row = 3)
 
 button_sumber_exit = tkinter.Button(window, text = "Exit", command = exit)
-button_sumber_exit.grid(column = 1,row = 3)
+button_sumber_exit.grid(column = 1,row = 4)
 
 label_driving_explorer = tkinter.Label(text='Driving imej')
 label_driving_explorer.grid(column=1, row=5)

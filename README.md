@@ -27,6 +27,8 @@
 cmd:
 `python main.py --src test_imgs/src/filename.ext --dst test_imgs/dest/filename.ext --out results/output.ext --correct_color --warp_2d`
 
+- Completing kivy app
+
 ### dlib_only
 - g2geek implementation of dlib face detection on single image and on real time
 

@@ -14,14 +14,16 @@ def openfn():
 def open_img():
     x = openfn()
     img = Image.open(x)
-    img = img.resize((250, 250), Image.ANTIALIAS)
+    img = img.resize((250, 350), Image.ANTIALIAS)
     img = ImageTk.PhotoImage(img)
     panel = Label(root, image=img)
     panel.image = img
     panel.pack()
+    name = Label(root, text=x)
+    name.pack()
 
 
-Button(root, text='open image', command=open_img).pack()
+Button(root, text='Pilih Imej', command=open_img).pack()
 
 # label_sumber_explorer = Label(root, text='Sumber imej')
 

@@ -9,8 +9,8 @@ root.resizable(width=True, height=True)
 
 def openfn():
     filename = filedialog.askopenfilename(title='open')
-    # label_sumber_explorer.configure(text="Imej untuk sumber dipilih: "+filename)
     return filename
+
 def open_img():
     x = openfn()
     img = Image.open(x)
@@ -24,7 +24,5 @@ def open_img():
 
 
 Button(root, text='Pilih Imej', command=open_img).pack()
-
-# label_sumber_explorer = Label(root, text='Sumber imej')
 
 root.mainloop()

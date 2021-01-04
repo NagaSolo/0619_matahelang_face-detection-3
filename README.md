@@ -5,6 +5,8 @@
 - repo: github.co/NagaSolo/0619_matahelang_face-detection-3
 - face detection computer vision, for all time sake; completed it once in a tinkerer way
 
+- Try to come out with kivy, tkinter way
+
 ### Idea
 - Computer Vision Project Idea – Face detection is a technique to find the location of the human faces in an image. 
 - Computers use various types of algorithms to detect if the shape in the image resembles a face or not. 
